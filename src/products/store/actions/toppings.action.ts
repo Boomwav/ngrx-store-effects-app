@@ -2,9 +2,9 @@ import { Action } from '@ngrx/store';
 
 import { Topping } from '../../models/topping.model';
 
-export const LOAD_TOPPINGS = 'LOAD TOPPINGS';
-export const LOAD_TOPPINGS_SUCCESS = 'LOAD TOPPINGS SUCCESS';
-export const LOAD_TOPPINGS_FAIL = 'LOAD TOPPINGS FAIL';
+export const LOAD_TOPPINGS = '[Product] Load Toppings';
+export const LOAD_TOPPINGS_SUCCESS = '[Product] Load Toppings Success';
+export const LOAD_TOPPINGS_FAIL = '[Product] Load Toppings Fail';
 
 export class LoadToppings implements Action {
   readonly type = LOAD_TOPPINGS;
